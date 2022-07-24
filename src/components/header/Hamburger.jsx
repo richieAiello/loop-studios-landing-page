@@ -3,12 +3,13 @@ const Hamburger = props => {
     <button
       type="button"
       className={`
-        hamburger relative cursor-pointer h-4 w-5
+        hamburger relative cursor-pointer h-4 w-5 z-50
         ${props.className}
         md:hidden
       `}
       aria-label="Click to open navigation menu."
       onClick={props.onClick}
+      disabled={props.disabled}
     />
   );
 };

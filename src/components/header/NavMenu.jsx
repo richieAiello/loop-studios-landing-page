@@ -16,11 +16,11 @@ const NavMenu = props => {
         className="grid gap-y-6 ml-6 
         md:grid-rows-[auto] md:grid-cols-[repeat(5,auto)] md:ml-0 md:gap-x-8"
       >
-        <NavItem text="about" />
-        <NavItem text="careers" />
-        <NavItem text="events" />
-        <NavItem text="products" />
-        <NavItem text="support" />
+        <NavItem text="about" onClick={props.onClick} />
+        <NavItem text="careers" onClick={props.onClick} />
+        <NavItem text="events" onClick={props.onClick} />
+        <NavItem text="products" onClick={props.onClick} />
+        <NavItem text="support" onClick={props.onClick} />
       </ul>
     </div>
   );
