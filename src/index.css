@@ -18,8 +18,6 @@
   Base Styles
 *****************************************/
 .body {
-  font-family: 'Alata', sans-serif;
-  font-weight: 400;
   font-size: 0.9375rem;
   line-height: 1.5625rem;
 }
@@ -38,8 +36,4 @@
   .container {
     width: 1110px;
   }
-}
-
-.logo path {
-  fill: rebeccapurple;
 }

@@ -10,7 +10,12 @@ module.exports = {
       md: '768px',
       lg: '1440px',
     },
-    extend: {},
+    extend: {
+      fontFamily: {
+        heading: 'Josefin Sans, sans-serif',
+        body: 'Alata, sans-serif',
+      },
+    },
   },
   plugins: [],
 };

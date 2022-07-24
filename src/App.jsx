@@ -1,12 +1,7 @@
-import { ReactComponent as Logo } from './assets/react.svg';
+import Header from './components/header/Header';
 
 const App = props => {
-  return (
-    <header>
-      <h1 className="text-7xl">Tailwind, Vite, and SVGR Ready</h1>
-      <Logo className="logo" />
-    </header>
-  );
+  return <Header />;
 };
 
 export default App;

@@ -1,0 +1,21 @@
+.custom-underline {
+  position: relative;
+}
+
+.custom-underline:hover::after {
+  content: '';
+  position: absolute;
+  bottom: -8px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: white;
+}
+
+@media (min-width: 768px) {
+  .custom-underline:hover::after {
+    margin-inline: auto;
+    right: 0;
+    width: 24px;
+  }
+}
