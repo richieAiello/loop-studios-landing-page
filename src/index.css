@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* font-family: 'Alata', sans-serif; */
+/* font-family: 'Josefin Sans', sans-serif; */
+
+/*****************************************
+  Reset and Scrollbar
+*****************************************/
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+/*****************************************
+  Base Styles
+*****************************************/
+.body {
+  font-family: 'Alata', sans-serif;
+  font-weight: 400;
+  font-size: 0.9375rem;
+  line-height: 1.5625rem;
+}
+
+.container {
+  margin-inline: auto;
+  width: min(100% - 3rem, 689px);
+}
+
+@media (min-width: 1440px) {
+  .body {
+    font-size: 1rem;
+    line-height: 1.625rem;
+  }
+
+  .container {
+    width: 1110px;
+  }
+}
+
+.logo path {
+  fill: rebeccapurple;
+}
