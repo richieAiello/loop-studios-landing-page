@@ -5,6 +5,7 @@ const CreationsCard = props => {
         w-[min(100%,327px)] h-[120px]
         bg-no-repeat bg-cover bg-center
         relative justify-self-center
+        md:w-full
         ${props.className}
       `}
     >
