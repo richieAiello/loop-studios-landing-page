@@ -24,11 +24,19 @@ const Nav = props => {
     return () => clearTimeout(timer);
   }, [menuVisibility]);
 
+  const setOverflow = () => {
+    const classes = document.body.classList;
+    classes.contains('overflow-body')
+      ? classes.remove('overflow-body')
+      : classes.add('overflow-body');
+  };
+
   const handleHamburgerClick = e => {
     setLoading(true);
     setMenuVisibility(!menuVisibility);
     hidden && setHidden(false);
     menuVisibility ? setAnimateOut(true) : setAnimateIn(true);
+    setOverflow();
   };
 
   const handleLinkClick = e => {

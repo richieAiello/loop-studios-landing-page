@@ -50,6 +50,11 @@
   line-height: 1.5625rem;
 }
 
+/* Used to conditionally change overflow on mobile devices. */
+.overflow-body {
+  overflow: hidden;
+}
+
 .container {
   margin-inline: auto;
   width: min(100% - 3rem, 689px);
