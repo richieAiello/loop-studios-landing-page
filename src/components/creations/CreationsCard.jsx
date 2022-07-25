@@ -42,6 +42,7 @@ const CreationsCard = props => {
           alt=""
           className="w-[min(100%,327px)] h-[120px] object-cover relative -z-10
           md:w-full lg:h-[450px]"
+          loading="lazy"
         />
       </picture>
       <a
