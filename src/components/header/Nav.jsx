@@ -3,7 +3,6 @@ import logo from '../../assets/logo.svg';
 import Hamburger from './Hamburger';
 import NavMenu from './NavMenu';
 import clsx from 'clsx';
-import './nav.css';
 
 const Nav = props => {
   const [menuVisibility, setMenuVisibility] = useState(false);
