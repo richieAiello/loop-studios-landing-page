@@ -1,6 +1,6 @@
 const InteractiveContext = props => {
   return (
-    <div className="order-2 text-center max-w-[300px]">
+    <div className="order-2 text-center max-w-[300px] md:max-w-[450px]">
       <h2 className="mb-4 font-heading font-light uppercase text-[2rem] leading-[2rem]">
         The leader in interactive VR
       </h2>
