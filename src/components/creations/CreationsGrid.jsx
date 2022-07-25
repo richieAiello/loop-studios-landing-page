@@ -4,39 +4,49 @@ const CreationsGrid = props => {
   return (
     <div
       className="grid gap-y-6 mb-[2.125rem] 
-      md:grid-cols-[1fr,1fr] md:col-span-2 md:gap-x-6"
+      md:grid-cols-[1fr,1fr] md:col-span-2 md:gap-x-6
+      lg:grid-cols-[repeat(4,1fr)] lg:gap-x-[1.875rem]"
     >
       <CreationsCard
-        className="bg-[url(./images/mobile/image-deep-earth.jpg)] lg:bg-[url(./images/desktop/image-deep-earth.jpg)]"
+        src="deep-earth"
         text="Deep earth"
+        link="https://unsplash.com/s/photos/earth"
       />
       <CreationsCard
-        className="bg-[url(./images/mobile/image-night-arcade.jpg)] lg:bg-[url(./images/desktop/image-night-arcade.jpg)]"
+        src="night-arcade"
         text="Night arcade"
+        link="https://unsplash.com/s/photos/arcade"
       />
       <CreationsCard
-        className="bg-[url(./images/mobile/image-soccer-team.jpg)] lg:bg-[url(./images/desktop/image-soccer-team.jpg)]"
+        src="soccer-team"
         text="Soccer team VR"
+        link="https://unsplash.com/s/photos/soccer-team"
       />
       <CreationsCard
-        className="bg-[url(./images/mobile/image-grid.jpg)] lg:bg-[url(./images/desktop/image-grid.jpg)]"
+        src="grid"
+        className="max-w-[7ch]"
         text="The grid"
+        link="https://unsplash.com/s/photos/racing"
       />
       <CreationsCard
-        className="bg-[url(./images/mobile/image-from-above.jpg)] lg:bg-[url(./images/desktop/image-from-above.jpg)]"
+        src="from-above"
         text="From up above VR"
+        link="https://unsplash.com/s/photos/drone-views"
       />
       <CreationsCard
-        className="bg-[url(./images/mobile/image-pocket-borealis.jpg)] lg:bg-[url(./images/desktop/image-pocket-borealis.jpg)]"
+        src="pocket-borealis"
         text="Pocket borealis"
+        link="https://unsplash.com/s/photos/borealis"
       />
       <CreationsCard
-        className="bg-[url(./images/mobile/image-curiosity.jpg)] lg:bg-[url(./images/desktop/image-curiosity.jpg)]"
+        src="curiosity"
         text="The curiosity"
+        link="https://unsplash.com/s/photos/mars-rover"
       />
       <CreationsCard
-        className="bg-[url(./images/mobile/image-fisheye.jpg)] lg:bg-[url(./images/desktop/image-fisheye.jpg)]"
+        src="fisheye"
         text="Make it fisheye"
+        link="https://unsplash.com/s/photos/fisheye"
       />
     </div>
   );

@@ -7,7 +7,7 @@ const InteractiveContext = props => {
     >
       <div className="lg:w-[445px] lg:absolute lg:right-0 lg:bottom-0">
         <h2
-          className="mb-4 font-heading font-light uppercase text-[2rem] leading-[2rem]
+          className="mb-4 font-heading font-light uppercase text-[2rem] leading-8
           lg:text-[3rem] lg:leading-[3rem] lg:mb-6"
         >
           The leader in interactive VR

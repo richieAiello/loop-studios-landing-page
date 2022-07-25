@@ -1,0 +1,13 @@
+.card-active:hover,
+.card-active:focus {
+  outline: #000;
+  outline-style: initial;
+  outline-width: 5px;
+  background-color: rgba(255, 255, 255, 75.07%);
+  background-image: unset;
+}
+
+.card-active:hover h3,
+.card-active:focus h3 {
+  color: #000;
+}
