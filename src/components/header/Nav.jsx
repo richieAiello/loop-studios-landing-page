@@ -38,7 +38,7 @@ const Nav = props => {
   };
 
   return (
-    <nav className="pt-10 mb-[10.25rem] flex justify-between items-center">
+    <nav className="pt-10 mb-[10.25rem] flex justify-between items-center md:mb-[8.125rem]">
       <img
         src={logo}
         alt="Loop Studios logo"
