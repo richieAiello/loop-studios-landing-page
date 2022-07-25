@@ -1,6 +1,7 @@
 import Header from './components/header/Header';
 import Interactive from './components/interactive/Interactive';
 import Creations from './components/creations/Creations';
+import Footer from './components/footer/Footer';
 
 const App = props => {
   return (
@@ -10,6 +11,7 @@ const App = props => {
         <Interactive />
         <Creations />
       </main>
+      <Footer />
     </>
   );
 };

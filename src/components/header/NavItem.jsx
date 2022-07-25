@@ -4,7 +4,7 @@ const NavItem = props => {
       <a
         href="#"
         className="uppercase font-heading text-[1.5rem] leading-[1.5625rem] font-light 
-        custom-underline relative md:font-body md:capitalize md:font-normal md:text-[0.9375rem]"
+        custom-underline--nav md:font-body md:capitalize md:font-normal md:text-[0.9375rem]"
         onClick={props.onClick}
       >
         {props.text}
