@@ -17,7 +17,6 @@ const CreationsCard = props => {
         card-active relative justify-self-center cursor-pointer duration-[400ms]
         bg-gradient-to-b from-[rgba(0,0,0,0)] to-[rgba(0,0,0,60.19%)]
       `}
-      aria-label="Click to view creation."
       onClick={handleCardClick}
       onKeyDown={handleKeyDown}
       tabIndex="0"
@@ -42,7 +41,6 @@ const CreationsCard = props => {
           alt=""
           className="w-[min(100%,327px)] h-[120px] object-cover relative -z-10
           md:w-full lg:h-[450px]"
-          loading="lazy"
         />
       </picture>
       <a
