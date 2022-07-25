@@ -17,6 +17,12 @@
 /*****************************************
   Base Styles
 *****************************************/
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
 .body {
   font-size: 0.9375rem;
   line-height: 1.5625rem;

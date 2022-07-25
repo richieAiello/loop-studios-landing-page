@@ -5,7 +5,10 @@ import { ReactComponent as Instagram } from '../../assets/icon-instagram.svg';
 
 const FooterIcons = props => {
   return (
-    <ul className="mb-4 grid grid-cols-[repeat(4,24px)] gap-x-4 items-center">
+    <ul
+      className="mb-4 grid grid-cols-[repeat(4,24px)] gap-x-4 items-center
+      md:col-start-2 md:row-start-1 md:justify-self-end"
+    >
       <li>
         <a
           href="#"
